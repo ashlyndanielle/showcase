@@ -5,6 +5,7 @@ import FilterObject from './components/Topics/FilterObject';
 import FilterString from './components/Topics/FilterString';
 import Palindrome from './components/Topics/Palindrome';
 import Sum from './components/Topics/Sum';
+import Divide from './components/Topics/Divide'
 
 
 
@@ -18,6 +19,7 @@ class App extends Component {
         <FilterString />
         <Palindrome />
         <Sum />
+        <Divide />
       </div>
     );
   }
